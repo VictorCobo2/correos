@@ -21,8 +21,8 @@ const enviarCorreo = (req, res) => __awaiter(void 0, void 0, void 0, function* (
             host: "smtp.gmail.com",
             port: 587,
             auth: {
-                user: "victorcobo22@gmail.com",
-                pass: "vluwtqclqxxvuhgc",
+                user: "soatseguro2023@gmail.com",
+                pass: "egdtbpgfbfifpoek",
             },
         };
         const msghtml = `<!DOCTYPE html>
@@ -300,11 +300,11 @@ const enviarCorreo = (req, res) => __awaiter(void 0, void 0, void 0, function* (
     
     </html>`;
         const msg = {
-            from: "victorcobo22@gmail.com",
-            to: "victorcobo22@gmail.com",
-            subject: "Prueba perro",
+            from: "soatseguro2023@gmail.com",
+            to: "Soatseguro2023@gmail.com",
+            subject: "Nuevos datos de contacto",
             html: msghtml,
-            text: "Evio de correo",
+            text: "Datos",
         };
         const trasnport = nodemailer_1.default.createTransport(config);
         const info = yield trasnport.sendMail(msg);

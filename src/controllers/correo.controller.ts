@@ -9,8 +9,8 @@ export const enviarCorreo = async (req: Request, res: Response) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "victorcobo22@gmail.com",
-        pass: "vluwtqclqxxvuhgc",
+        user: "soatseguro2023@gmail.com",
+        pass: "egdtbpgfbfifpoek",
       },
     };
 
@@ -290,11 +290,11 @@ export const enviarCorreo = async (req: Request, res: Response) => {
     </html>`;
 
     const msg = {
-      from: "victorcobo22@gmail.com",
-      to: "victorcobo22@gmail.com",
-      subject: "Prueba perro",
+      from: "soatseguro2023@gmail.com",
+      to: "Soatseguro2023@gmail.com",
+      subject: "Nuevos datos de contacto",
       html: msghtml,
-      text: "Evio de correo",
+      text: "Datos",
     };
 
     const trasnport = nodemailer.createTransport(config);
