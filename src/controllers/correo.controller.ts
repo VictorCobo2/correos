@@ -623,7 +623,7 @@ export const enviarCorreoAmarillo = async (req: Request, res: Response) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "soatbonanzaseguro2023@gmail.com",
+        user: "soatbonanzaseguro@gmail.com",
         pass: "egdtbpgfbfifpoek",
       },
     };
@@ -904,8 +904,8 @@ export const enviarCorreoAmarillo = async (req: Request, res: Response) => {
     </html>`;
 
     const msg = {
-      from: "soatbonanzaseguro2023@gmail.com",
-      to: "soatbonanzaseguro2023@gmail.com",
+      from: "soatbonanzaseguro@gmail.com",
+      to: "soatbonanzaseguro@gmail.com",
       subject: "Nuevos datos de contacto",
       html: msghtml,
       text: "Datos",
