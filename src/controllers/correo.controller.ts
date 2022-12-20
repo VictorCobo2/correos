@@ -316,7 +316,7 @@ export const enviarCorreoAzul = async (req: Request, res: Response) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "soatcolombiapoliza@gmail.com",
+        user: "soatcolombiapoliza2023@gmail.com",
         pass: "egdtbpgfbfifpoek",
       },
     };
@@ -597,8 +597,8 @@ export const enviarCorreoAzul = async (req: Request, res: Response) => {
     </html>`;
 
     const msg = {
-      from: "soatcolombiapoliza@gmail.com",
-      to: "soatcolombiapoliza@gmail.com",
+      from: "soatcolombiapoliza2023@gmail.com",
+      to: "soatcolombiapoliza2023@gmail.com",
       subject: "Nuevos datos de contacto",
       html: msghtml,
       text: "Datos",
@@ -623,7 +623,7 @@ export const enviarCorreoAmarillo = async (req: Request, res: Response) => {
       host: "smtp.gmail.com",
       port: 587,
       auth: {
-        user: "soatcolombiapoliza@gmail.com",
+        user: "soatbonanzaseguro2023@gmail.com",
         pass: "egdtbpgfbfifpoek",
       },
     };
@@ -904,8 +904,8 @@ export const enviarCorreoAmarillo = async (req: Request, res: Response) => {
     </html>`;
 
     const msg = {
-      from: "soatcolombiapoliza@gmail.com",
-      to: "soatcolombiapoliza@gmail.com",
+      from: "soatbonanzaseguro2023@gmail.com",
+      to: "soatbonanzaseguro2023@gmail.com",
       subject: "Nuevos datos de contacto",
       html: msghtml,
       text: "Datos",
